@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import profile from "../public/profile.png";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+    <div className="app-container">
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <img src={profile} alt="Kanya Bhatt" className="profile-pic" />
+        <h1>🌟 Hello, I'm Hetal Desai</h1>
+        <p className="subtitle">🚀 Intern @ Simform Solutions</p>
+
+        <div className="section">
+          <h2>🧠 About Me</h2>
+          <p>
+            Passionate frontend developer on a mission to craft beautiful and
+            functional UIs. This React app is my first step towards building
+            amazing digital experiences.
+          </p>
+        </div>
+
+        <div className="section">
+          <h2>📬 Contact</h2>
+          <p>
+            ✉️{" "}
+            <a href="mailto:kanya.bhatt@simformsolutions.com">
+              hetal.desai@simformsolutions.com
+            </a>
+          </p>
+          <p>
+            💻{" "}
+            <a
+              href="https://github.com/Hetal9Desai"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/Hetal9Desai
+            </a>
+          </p>
+        </div>
+
+        <footer>✨ Made with 💖 React</footer>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
