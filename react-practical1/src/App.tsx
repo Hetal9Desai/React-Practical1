@@ -22,7 +22,7 @@ function App() {
           <h2>📬 Contact</h2>
           <p>
             ✉️{" "}
-            <a href="mailto:kanya.bhatt@simformsolutions.com">
+            <a href="hetal.desai@simformsolutions.com">
               hetal.desai@simformsolutions.com
             </a>
           </p>
