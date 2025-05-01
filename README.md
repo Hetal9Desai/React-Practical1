@@ -14,4 +14,4 @@
 
 ## Live Link
 
-tranquil-sopapillas-76bd7a.netlify.app
+https://clinquant-fairy-f74e72.netlify.app/
