@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="card">
-        <img src={profile} alt="Kanya Bhatt" className="profile-pic" />
+        <img src={profile} alt="Hetal Desai" className="profile-pic" />
         <h1>🌟 Hello, I'm Hetal Desai</h1>
         <p className="subtitle">🚀 Intern @ Simform Solutions</p>
 
