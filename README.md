@@ -14,4 +14,4 @@
 
 ## Live Link
 
-dazzling-madeleine-757ff2.netlify.app
+https://clinquant-fairy-f74e72.netlify.app/
